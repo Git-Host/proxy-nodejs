@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Snova C4(NodeJS) Server V${version}</title>
+<title>Snova C4 Server V${version}</title>
 </head>
 <body>
-	<h1 align="center">Snova C4(NodeJS) Server ${version}</h1>
+	<h1 align="center">Snova C4 Server ${version}</h1>
 	<p align="center">Code:
 		<a href="http://code.google.com/p/snova/">GoogleCode(Java)</a> <a
 			href="https://github.com/yinqiwen/gsnova">GitHub(Go)</a>
@@ -16,5 +16,16 @@
 	<p align="center">
 		Author: <a href="http://twitter.com/yinqiwen">@yinqiwen</a>
 	</p>
+	
+	<form name="form" action="dns" method="post">
+		<div class="box" style="text-align: center;">
+			<span class="info"> DomainName: 
+			<input name="Domain"
+				type="text" id="Domain" class="input" size="40" url="true" /> 
+			<input
+				 type="submit" value="Query" />
+			</span>
+		</div>
+	</form>
 </body>
 </html>
